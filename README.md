@@ -1,8 +1,13 @@
 # explore-countries
 
-Link - https://explore-countries-silk.vercel.app/
+# Link to deployment 
+https://explore-countries-silk.vercel.app/
 
-# How to run
+# How to run on your own pc
+
+in client folder, open vite.config.js.
+comment out line "/api": "https://explore-countries-server.vercel.app"
+uncomment line "/api": "http://localhost:4000"
 
 open two terminals
 

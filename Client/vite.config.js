@@ -7,6 +7,7 @@ export default defineConfig({
   server: {
     proxy: {
       "/api": "https://explore-countries-server.vercel.app",
+      // "/api": "http://localhost:4000",
     },
   },
 });
