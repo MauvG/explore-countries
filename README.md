@@ -1,7 +1,8 @@
 # explore-countries
 
-# Link to deployment 
-https://explore-countries-silk.vercel.app/
+# Link to deployment
+
+https://explore-countries-silk.vercel.app/ (sometimes run slow)
 
 # How to run on your own pc
 
