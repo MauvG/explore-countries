@@ -5,6 +5,10 @@ const PORT = 4000;
 
 app.use(express.json());
 
+app.use("/", (req, res) => {
+  res.send("Server is up and running.");
+});
+
 app.get("/api/country/:name", async (req, res) => {
   const { name } = req.params;
   try {
