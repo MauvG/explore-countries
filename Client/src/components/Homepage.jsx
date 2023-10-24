@@ -30,7 +30,7 @@ const Homepage = () => {
 
           <Link to={`/search/${country}`} className="ml-[-35px] text-blue-600">
             <div className="hover:scale-110">
-              <img src="/public/assets/search.svg" alt="Search" />
+              <img src="/assets/search.svg" alt="Search" />
             </div>
           </Link>
         </div>
@@ -38,7 +38,7 @@ const Homepage = () => {
 
       <div className="flex-1 m-10">
         <img
-          src="/public/assets/worldMapColour.jpg"
+          src="/assets/worldMapColour.jpg"
           alt="Background"
           className="h-full object-contain"
         />

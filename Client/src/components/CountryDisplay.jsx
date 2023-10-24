@@ -9,7 +9,7 @@ const CountryDisplay = ({ countryData }) => {
       <Navbar />
       <div className="flex items-center justify-center">
         <img
-          src="/public/assets/worldMapColour.jpg"
+          src="/assets/worldMapColour.jpg"
           alt="background"
           className="absolute -z-10 opacity-10 mt-80"
         />
