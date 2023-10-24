@@ -52,7 +52,7 @@ const CountryDisplay = ({ countryData }) => {
               </li>
 
               <li className="">
-                Languages: {Object.values(countryData.languages)[0]}
+                Language(s): {Object.values(countryData.languages)[0]}
                 {Object.values(countryData.languages)[1]
                   ? ", " + Object.values(countryData.languages)[1]
                   : ""}
