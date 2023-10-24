@@ -11,8 +11,9 @@ const CountryPage = () => {
   }
 
   const fetchData = () => {
-    fetch(`/api/country/${countryName}`)
-      .then((response) => response.json())
+    // fetch(`/api/country/${countryName}`)
+    fetch(`https://explore-countries-server.vercel.app/api/country/${countryName}`)
+    .then((response) => response.json())
       .then((data) => {
         setCountryData(data);
       })
