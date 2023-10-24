@@ -34,12 +34,12 @@ const CountryDisplay = ({ countryData }) => {
               width={300}
             />
           </div>
-          <div className="mt-10 text-center font-bold text-xl hover:scale-110">
+          <div className="mt-10 text-center font-bold text-xl">
             <Link
               to={countryData.maps.googleMaps}
               className="underline text-blue-600"
             >
-              Google maps
+              <div className="hover:scale-110">Google maps</div>
             </Link>
           </div>
         </div>
@@ -68,6 +68,7 @@ const CountryDisplay = ({ countryData }) => {
                 Currency: {Object.values(countryData.currencies)[0].name} (
                 {Object.values(countryData.currencies)[0].symbol})
               </li>
+              <li>Area: {countryData.area.toLocaleString("en-US")}km²</li>
             </ul>
             <img
               src={countryData.coatOfArms.png}

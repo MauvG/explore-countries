@@ -27,8 +27,11 @@ const Homepage = () => {
             placeholder="e.g. Ireland"
             className="focus:outline-none border-2 border-blue-600 rounded-full pl-4 pr-10 p-1"
           />
+
           <Link to={`/search/${country}`} className="ml-[-35px] text-blue-600">
-            <img src="/public/assets/search.svg" alt="Search" />
+            <div className="hover:scale-110">
+              <img src="/public/assets/search.svg" alt="Search" />
+            </div>
           </Link>
         </div>
       </div>
