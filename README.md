@@ -1,5 +1,25 @@
 # explore-countries
+
 Link - https://explore-countries-silk.vercel.app/
+
+# How to run
+
+open two terminals
+
+-> Terminal 1:
+cd ./Server
+npm run dev
+
+-> Terminal 2:
+cd ./Client
+npm install
+npm run dev
+
+click link (usually http://localhost:5173)
+
+Website should now running 👍 (hopefully)
+
+# Project information
 
 Search any country: This project enables you to search for information about any country in the world effortlessly.
 
