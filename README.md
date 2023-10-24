@@ -6,18 +6,18 @@ https://explore-countries-silk.vercel.app/
 # How to run on your own pc
 
 in client folder, open vite.config.js.
-comment out line "/api": "https://explore-countries-server.vercel.app"
-uncomment line "/api": "http://localhost:4000"
+comment out line: "/api": "https://explore-countries-server.vercel.app",
+uncomment line: "/api": "http://localhost:4000"
 
 open two terminals
 
 -> Terminal 1:
-cd ./Server
+cd ./Server,
 npm run dev
 
 -> Terminal 2:
-cd ./Client
-npm install
+cd ./Client,
+npm install,
 npm run dev
 
 click link (usually http://localhost:5173)
