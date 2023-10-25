@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import Navbar from "./Navbar";
 
 const CountryDisplay = ({ countryData }) => {
-  console.log(countryData);
   return (
     <div>
       <Navbar />

@@ -6,8 +6,8 @@ export default defineConfig({
   plugins: [react()],
   server: {
     proxy: {
-      "/api": "https://explore-countries-server.vercel.app",
-      // "/api": "http://localhost:4000",
+      // "/api": "https://explore-countries-server.vercel.app",
+      "/api": "http://localhost:4000",
     },
   },
 });

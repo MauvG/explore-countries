@@ -1,9 +1,13 @@
 const express = require("express");
 const axios = require("axios");
 const app = express();
+const cors = require("cors");
+
 const PORT = 4000;
 
-app.use(express.json());
+// app.use(express.json());
+
+app.use(cors());
 
 app.get("/api/country/:name", async (req, res) => {
   const { name } = req.params;
