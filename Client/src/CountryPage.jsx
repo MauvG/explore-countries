@@ -7,10 +7,7 @@ const CountryPage = () => {
   const [countryData, setCountryData] = useState(null);
 
   const fetchData = () => {
-    // fetch(`/api/country/${countryName}`)
-    fetch(
-      `https://explore-countries-server.vercel.app/api/country/${countryName}`
-    )
+    fetch(`https://explore-countries-server.vercel.app/api/country/${countryName}`)
       .then((response) => response.json())
       .then((data) => {
         setCountryData(data);
