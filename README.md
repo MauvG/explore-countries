@@ -8,9 +8,9 @@ https://explore-countries-silk.vercel.app/
 
 Open terminal:
 
-cd ./Client__
-npm install__
-npm run dev__
+cd ./Client  
+npm install  
+npm run dev  
 
 Open http://localhost:5173
 
@@ -26,8 +26,8 @@ to: fetch(`http://localhost:4000/api/country/${countryName}`)
 
 Open another terminal:
 
-cd ./Server__
-npm run dev__
+cd ./Server  
+npm run dev  
 
 Server should now be running on http://localhost:4000.
 
