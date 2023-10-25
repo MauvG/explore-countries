@@ -2,28 +2,34 @@
 
 # Link to deployment
 
-https://explore-countries-silk.vercel.app/ (sometimes run slow)
+https://explore-countries-silk.vercel.app/
 
 # How to run on your own pc
 
-in client folder, open vite.config.js.
-comment out line: "/api": "https://explore-countries-server.vercel.app",
-uncomment line: "/api": "http://localhost:4000"
+Open terminal:
 
-open two terminals
+cd ./Client__
+npm install__
+npm run dev__
 
--> Terminal 1:
-cd ./Server,
-npm run dev
-
--> Terminal 2:
-cd ./Client,
-npm install,
-npm run dev
-
-click link (usually http://localhost:5173)
+Open http://localhost:5173
 
 Website should now running 👍 (hopefully)
+
+# If you want to run the server locally as well:
+
+Open Client/src/CountryPage.jsx.
+
+Change line 10: fetch(`https://explore-countries-server.vercel.app/api/country/${countryName}`)
+
+to: fetch(`http://localhost:4000/api/country/${countryName}`)
+
+Open another terminal:
+
+cd ./Server__
+npm run dev__
+
+Server should now be running on http://localhost:4000.
 
 # Project information
 
